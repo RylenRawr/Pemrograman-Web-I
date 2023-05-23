@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Biodata</title>
+  </head>
+  <body>
+    <center>
+      <form action="Latihan1.html" method="post">
+        <table width="500" height="800" border="4" color="black">
+          <tr height="88" bgcolor="#8ab78a">
+            <td style="color: black; font-family: 'Courier New', Courier, monospace">
+              <center>
+                <b><h1>Hubungi Saya</h1></b>
+              </center>
+            </td>
+          </tr>
+          <tr height="350" bgcolor="#f8ebd5" valign="top">
+            <td>
+              <table>
+                <tr>
+                  <td style="font-family: 'Courier New', Courier, monospace;">
+                    <h1><b>Data Diri</b></h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nama</td>
+                  <td><input type="text" name="nama" required /></td>
+                </tr>
+                <tr>
+                  <td>Nim</td>
+                  <td>
+                    <input type="text" name="nim" value="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>E-mail</td>
+                  <td><input type="email" name="email" required /></td>
+                </tr>
+                <tr>
+                  <td>Tanggal Lahir</td>
+                  <td><input type="date" name="bday" /></td>
+                </tr>
+                <tr valign="top">
+                  <td>Jenis Kelamin</td>
+                  <td>
+                    <input type="radio"name="gender" value="cowok"/>Laki-laki<br/>
+                    <input type="radio"name="gender"value="cewek"/>Perempuan
+                  </td>
+                </tr>
+                <tr valign="top">
+                </tr>
+                <tr>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr height="150" bgcolor="#8ab78a" valign="top">
+            <td>Komentar Anda<br />
+              <textarea name="komentar" id=""cols="70"rows="6"style="margin-bottom:5"></textarea>
+              <br />
+              <button type="reset" value="Reset" >Reset</button>
+              <button type="submit" value="Submit" >Submit</button>
+              <button type="button" value="Cancel" >Cancel</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
